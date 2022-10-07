@@ -71,7 +71,7 @@ public class NetworkUI : MonoBehaviour
         
 
         // 生成玩家对象的位置（如果为 null，则使用默认的 Vector3.zero）
-        response.Position = Vector3.zero;
+        response.Position = new Vector3(15.0f,0.5f,-26.0f);
 
         // 旋转生成玩家对象（如果为 null，则使用默认的 Quaternion.identity）
         response.Rotation = Quaternion.identity;
